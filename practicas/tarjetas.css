@@ -1,0 +1,106 @@
+body{
+
+    background-color: rgb(255, 255, 255);
+   font-family: sans-serif;
+   font-size: 1.3rem;
+   
+}
+
+.bg__image{
+    position: absolute;
+}
+
+.bg__image--top{
+    top: -200px;
+    left: -100px;
+    width: 900px;
+}
+
+.bg__image--bottom{
+    bottom: -450px;
+    right: -100px;
+    width: 900px;
+
+
+}
+
+
+
+
+.card__header--profileimage{
+
+    position: relative;
+    top: -50px;
+    left: 5px;
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid #fff; 
+    
+}
+
+.card{
+position: relative;
+top: 30vh;
+width: 500px;
+height: 600px;
+margin-left: auto;
+margin-right: auto;
+background: rgb(255, 255, 255);
+border-radius: 80px;
+border-color: black;
+overflow: auto;
+
+
+}
+
+.card__header{
+
+    position: absolute;
+    height: 120px;
+    text-align: center;
+    border-radius: 50px;
+   
+}
+
+.card__header--image{
+position: relative;
+width: 500px;
+height: 100%;
+text-align: center;
+
+
+}
+
+.card__body{
+
+    position: absolute;
+    top: 320px;
+    width: 500px;
+    height: 0px;
+  text-align:center;
+ 
+}
+
+
+
+    
+
+
+.prueba{
+    position: relative;
+    top: 400px;
+    text-align: center;
+    border-top: 1px solid gray;
+
+}
+.separadores{
+    display: inline-block;
+    margin: 0 1.9em;
+    text-align: center;
+}
+
+
+.number{
+    margin-top: 50px;
+    font-size: 1.3em;
+}
